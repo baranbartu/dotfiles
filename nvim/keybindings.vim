@@ -76,7 +76,7 @@ function! s:general_bindings()
 	nnoremap <silent><BS> :noh<cr>
 	nmap sg  <plug>(GrepperOperator)
 	xmap sg  <plug>(GrepperOperator)
-	nnoremap <leader>* :Grepper -cword -noprompt<cr>
+	nnoremap <leader>* :Grepper -tool ag -cword -noprompt<cr>
 
 	" for browsing the input history
 	cnoremap <c-n> <down>
